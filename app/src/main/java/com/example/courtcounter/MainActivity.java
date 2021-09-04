@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     int scoreTeamA = 0;
     int scoreTeamB = 0;
+
     /**
      * Displays the given score for Team A.
      */
@@ -36,31 +37,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addThreeForTeamA(View view) {
-        scoreTeamA+=3;
+        scoreTeamA += 3;
         displayForTeamA(scoreTeamA);
     }
 
     public void addTwoForTeamA(View view) {
-        scoreTeamA+=2;
+        scoreTeamA += 2;
         displayForTeamA(scoreTeamA);
     }
+
     public void addOneForTeamA(View view) {
-        scoreTeamA+=1;
+        scoreTeamA += 1;
         displayForTeamA(scoreTeamA);
     }
 
     public void addThreeForTeamB(View view) {
-        scoreTeamB+=3;
+        scoreTeamB += 3;
         displayForTeamB(scoreTeamB);
     }
 
     public void addTwoForTeamB(View view) {
-        scoreTeamB+=2;
+        scoreTeamB += 2;
         displayForTeamB(scoreTeamB);
     }
 
     public void addOneForTeamB(View view) {
-        scoreTeamB+=1;
+        scoreTeamB += 1;
         displayForTeamB(scoreTeamB);
     }
 }
